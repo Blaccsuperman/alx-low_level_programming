@@ -2,7 +2,7 @@
 /**
  * _puts_recursion - print a given string 
  *
- * @s - the string accepted
+ * @s: the string accepted
  * Description: The code below prints string
  * using putchar character by character
  * Return: 0
