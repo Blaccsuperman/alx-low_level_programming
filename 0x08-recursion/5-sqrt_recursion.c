@@ -1,14 +1,8 @@
 #include "main.h"
 
-/**
- * _sqrt_recursion - returns square root of n
- * @n: number whose square root is solved
- * Return: squareroot of n
- */
-
 
 /**
- * halp - helper function to find sqrt of n
+ * hefu - helper function to find sqrt of n
  * @b: number to check if sqrt
  * @c: iteration count
  * Return: sqrt if natural
@@ -25,6 +19,12 @@ int hefu(int b, int c)
 	else
 		return (-1);
 }
+
+/**
+ * _sqrt_recursion - returns square root of n
+ * @n: number whose square root is solved
+ * Return: squareroot of n
+ */
 int _sqrt_recursion(int n)
 {
 	return (hefu(n, 1));
