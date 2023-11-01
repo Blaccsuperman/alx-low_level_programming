@@ -18,7 +18,10 @@ char *_strdup(char *str)
 	if (s == NULL)
 		return (NULL);
 	else if (str == NULL)
+	{
+		printf("failed to allocate memory")
 		return (NULL);
+	}
 	for (i = 0; i < n; i++)
 		s[i] = str[i];
 	s[i] = '\0';
