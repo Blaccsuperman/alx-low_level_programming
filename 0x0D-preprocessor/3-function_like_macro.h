@@ -1,7 +1,9 @@
-#include "main.h"
-#ifndef ABS
+#ifndef ABS_H
+#define ABS_H
+
 /**
  * ABS(x) - function-like macro do get absolute value of x
+ * @x: accepted integer
  */
 
 
