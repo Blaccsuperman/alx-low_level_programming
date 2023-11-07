@@ -1,8 +1,11 @@
-#include "main.h"
 #ifndef SUM_H
+#define SUM_H
+
 /**
- *sum - macro to add two numbers x and y
+ * SUM - macro to add two numbers
+ * @x: first number
+ * @y: second number
  */
-#define SUM(x,y) ((x)+(y))
+#define SUM(x, y) ((x) + (y))
 
 #endif
